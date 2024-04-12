@@ -55,7 +55,8 @@ async function obtenerEstudiantePorRut(rut) {
 async function obtenerTodosLosEstudiantes() {
   try {
     const query = {
-      text: 'SELECT * FROM estudiantes'
+      text: 'SELECT * FROM estudiantes',
+      rowMode: 'array'
     };
     const result = await pool.query(query);
 
@@ -109,6 +110,7 @@ async function eliminarEstudiantePorRut(rut) {
     handleError(error);
   }
 }
+
 
 // Obtener registros de todos los estudiantes registrados en formato de arreglo
 async function obtenerRegistrosEstudiantes() {
