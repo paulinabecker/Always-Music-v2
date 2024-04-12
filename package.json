@@ -1,0 +1,18 @@
+{
+  "name": "always-music-v2",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Descripción\r La escuela de música Always Music solicitó hacer unas pruebas con el avance del desarrollo\r del sistema de gestión con base de datos PostgreSQL, se dieron cuenta que no se podían\r hacer varias consultas de forma simultánea y que al intentar hacer una consulta errónea, no\r recibían ningún error, dejando la posibilidad de creer que un estudiante fue registrado y que\r esto no sea así.\r En este desafío deberás ocupar la clase Pool definiendo sus diferentes propiedades, capturar\r los posibles errores en el proceso de conexión con la base de datos y realizar las siguientes\r consultas usando textos parametrizados.\r ● Agregar un nuevo estudiante.\r ● Consultar los estudiantes registrados.\r ● Consultar estudiante por rut.\r ● Actualizar la información de un estudiante.\r ● Eliminar el registro de un estudiante.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.5"
+  }
+}
