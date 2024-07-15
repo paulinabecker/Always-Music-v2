@@ -1,4 +1,5 @@
 Descripción
+
 La escuela de música Always Music solicitó hacer unas pruebas con el avance del desarrollo
 del sistema de gestión con base de datos PostgreSQL, se dieron cuenta que no se podían
 hacer varias consultas de forma simultánea y que al intentar hacer una consulta errónea, no
